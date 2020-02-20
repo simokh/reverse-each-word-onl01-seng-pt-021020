@@ -3,10 +3,10 @@ def reverse_each_word(sentence1)
   #First solve it using .each Then write the same method using .collect to see the difference.
   #turn the string into an array
   #.reverse reverses an array
-  # original_array = string.split(" ")
+  original_array = string.split(" ")
   new_array = []
   original_array.each do|sentence1|
-    return_array << sentence1.reverse
+    new_array << sentence1.reverse
   end
   new_array.join(" ")
 end
