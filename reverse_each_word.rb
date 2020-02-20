@@ -1,12 +1,16 @@
 def reverse_each_word(sentence1)
-  # returns that same sentence with each word reversed in place.
-  #First solve it using .each Then write the same method using .collect to see the difference.
-  #turn the string into an array
-  #.reverse reverses an array
-  original_array = sentence1.split(" ")
+  if array = sentence1.split(" ")
   new_array = []
-  original_array.each do|sentence1|
-    new_array << sentence1.reverse
+  array.each do|sentence1|
+  new_array << sentence1.reverse
   end
   new_array.join(" ")
+end
+elsif  array = sentence2.split(" ")
+new_array = []
+array.each do|sentence2|
+new_array << sentence2.collect
+end
+new_array.join(" ")
+
 end
